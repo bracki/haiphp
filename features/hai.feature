@@ -4,5 +4,13 @@ Feature: Hello World.
   so that I achieve world domination!!!
 
   Scenario: Hello World.
-    When I run my program
+    When I run "./hai.php"
     Then I see "Hello World."
+
+  Scenario: Hello Bracki.
+    When I run "./hai.php Bracki"
+    Then I see
+      """
+      Hello World.
+      Hello Bracki.
+      """
