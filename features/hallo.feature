@@ -5,5 +5,13 @@ Funktionalität: Hallo Welt.
   damit ich die Weltherrschaft übernehme!!!
 
   Szenario: Hallo Welt.
-    Wenn ich mein Programm ausführe
+    Wenn ich "./hai.php" ausführe
     Dann sehe ich "Hello World."
+
+  Szenario: Hallo Bracki.
+    Wenn ich "./hai.php Bracki" ausführe
+    Dann sehe ich
+      """
+      Hello World.
+      Hello Bracki.
+      """
